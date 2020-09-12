@@ -1,0 +1,106 @@
+/* AXES */
+/* ticks */
+.axis line{
+/* stroke: #706f6f; */
+stroke: white;
+stroke-width: 0.5;
+shape-rendering: crispEdges;
+}
+
+/* axis contour */
+.axis path {
+/* stroke: #706f6f; */
+stroke: white;
+stroke-width: 0.7;
+shape-rendering: crispEdges;
+}
+
+/* axis text */
+.axis text {
+/* fill: #2b2929; */
+fill: white;
+font-family: Georgia;
+font-size: 120%;
+}
+/* LINE CHART */
+
+path.col-id-0 {
+fill: none;
+/* stroke: #2b2929; */
+stroke: red;
+stroke-width: 2.0;
+/* stroke-dasharray: 2; */
+}
+
+path.col-id-1 {
+fill: none;
+stroke: white;
+stroke-width: 2.0;
+}
+
+path.col-id-2 {
+fill: none;
+/* stroke: #9c9c9c; */
+stroke: green;
+stroke-width: 2.0;
+/* stroke-dasharray: 6; */
+}
+
+path.col-id-3 {
+fill: black;
+/* stroke: #9c9c9c; */
+stroke: blue;
+stroke-width: 2.0;
+/* stroke-dasharray: 6; */
+}
+path.col-id-4 {
+fill: none;
+/* stroke: #9c9c9c; */
+stroke: yellow;
+stroke-width: 2.0;
+/* stroke-dasharray: 6; */
+}
+path.col-id-5 {
+fill: none;
+/* stroke: #9c9c9c; */
+stroke: black;
+stroke-width: 2.0;
+/* stroke-dasharray: 6; */
+}
+
+
+.serie_label {
+/* fill: #2b2929; */
+fill: white;
+font-family: Georgia;
+font-size: 80%;
+}
+
+/* TOOLTIP */
+.pointer {
+fill: #2b2929;
+font-family: Georgia;
+font-size: 75%;
+}
+
+/* POINTS */
+.point {
+stroke: none;
+fill: #9c9c9c;
+/* fill: none; */
+}
+
+.linechart-body {
+    background: 'transparent';
+    
+  }
+
+  .chart--container {
+    height: 100%;
+    width: 100%;
+    min-height: 500px;
+  }
+
+  .zc-ref {
+    display: none;
+  }

@@ -1,0 +1,147 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="css/reveal.css">
+        <link rel="stylesheet" href="css/theme/league.css">
+        <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css"/>
+        <link rel="stylesheet" href="css/bootstrap.css"/>
+
+
+
+<script src="//d3js.org/d3.v3.min.js" charset="utf-8"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-csv/0.71/jquery.csv-0.71.min.js"></script>
+<script src="http://unpkg.com/leaflet@1.3.1/dist/leaflet.js"></script>
+
+<script src="scripts/heatmap.js-2.0.5/build/heatmap.js"></script>
+<script src="scripts/leaflet-heatmap.js"></script> 
+<script src="scripts/leaflet-providers.js"></script>
+<script src="scripts/leaflet-layerscontrol-buttons.js"></script>
+<script type="text/javascript" src='//cdnjs.cloudflare.com/ajax/libs/d3/3.3.11/d3.min.js'></script>
+
+
+<script type="text/javascript" src='scripts/main.js'></script>
+
+<script src="https://d3js.org/d3.v5.js"></script>
+<script src="https://unpkg.com/d3-simple-slider"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-legend/2.25.6/d3-legend.min.js"></script>
+<script src="scripts/reveal.js"></script>
+
+
+
+
+
+	</head>
+	<body>
+        <div class='row'>
+            <div class="navbar navbar-inverse navbar-fixed-top">
+          <div class="navbar-inner" >
+            <a class="brand" href="index.html" style="margin-left:10px">BushFire Visualization</a>
+    
+            <ul class="nav" style="margin-top:5px">
+              <a href="about.html" class='btn btn-small' >About</a>
+              <a href="https://earthdata.nasa.gov/earth-observation-data/near-real-time/firms" class='btn btn-small' target='_blank'>Data</a>
+              
+            </ul>
+          </div>
+        </div>
+        <div class="reveal">
+            <div class="slides">
+                <section>
+                    <section  data-state="darkside">COMPSCI 590V
+                        <h1>Bushfire Visualization</h1>
+                                <h3>Project Demo</h3>
+                                <p>
+                                  <small>Group 8 : Nikita Bhalla, Deepanshu Pariyani, Apurva Bhandari, Maggie Zhang</small>
+                                </p>
+                    </section>
+                    
+                    <section  data-state="darkside">
+                        <h3>Why were the 2020 fires so bad?</h3>
+      
+                                    <h2>18.6 million</h2><small>hectares</small> <small style="color: red;">BURNT</small> 
+                                
+                                    <h2>1 Billion</h2><small>animals </small> <small style="color: red;">  KILLED</small>
+                         
+                                     <h2>34</h2><small>human</small> <small style="color: red;"> DEATHS</small>
+                               
+                        
+                    </section>
+                    
+                    
+                    <section  data-state="darkside">
+                        <h3>Why were the 2020 fires so bad?</h3>
+                        <br>
+                        <br>
+                        <iframe src="line_chart.html" width="1000" height="350" ></iframe>
+                    </section>
+
+                    <section  data-state="darkside">
+                        <h4>DATA</h4>
+                      <iframe src="./assets/data2.png"  style="width:751px;height:478px;"> 
+                      </iframe>   
+                        <p>
+                            <small></small>
+                            </p>
+                    </section>
+
+                    <section  data-state="darkside">
+                        <h4>USER PERSONAS</h4>
+                       
+                        <img src="./assets/users3.png"  height="1200" width="800">
+                        
+                            <p>
+                            <small></small>
+                            </p>
+                    </section>
+                       
+
+                    <section  data-state="darkside">
+                        <iframe src="aus_map.html" width="1770" height="670"  ></iframe>
+                       
+                    </section>
+                    <section  data-state="darkside">
+                        <h3>WHAT COULD BE GOING WRONG ?</h3>
+
+                        <h1>48.3  &#xb0 C</h1> <small style="color: red; ">HIGHEST</small>  <small>Maximum Temperature</small>
+                                
+                        <h1>0.77 mm</h1> <small style="color: red; ">LOWEST</small> <small>Mean Rainfall</small>
+                         
+                                    
+                               
+
+
+
+                    </section>
+                    <section>
+                        <h4>Climate Trends</h4>
+                        <iframe src="linechart.html" width="1015" height="520" ></iframe>
+                    </section>
+                    <section  data-state="darkside">
+                        <h2>HOW BAD ARE THESE BUSHFIRES?</h2>
+
+
+                        <h3 style="padding: 150px;"> Compared to Brazil, which also has extreme bushfire seasons, how do the Australian bushfires look? </h3>
+                    </section>
+                    <section  >
+                        <h4>Comparison between Australia and Brazil </h4>
+                        <iframe src="bar_chart.html" width="1015" height="500" ></iframe>
+                    </section>
+                    <section  data-state="darkside">
+                        <h1>THANK YOU</h1>
+                                <h3>Q/A</h3>  
+                    </section>
+                </section>
+
+
+            
+            </div>
+        </div>
+
+
+		
+		<script>
+			Reveal.initialize({width: '85%',height: '90%', center: false });
+        </script>
+	</body>
+</html>
